@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="blackjack.js"></script>
+
+</head>
+<body>
+
+<div id = 'container'>
+    <div id="scorecard">
+        <p id = 'bankroll'>Bankroll:</p>
+        <div id = 'mybalance'></div>
+        <p>Current Bet:</p>
+        <div id = 'pot'></div>
+        <p></p>
+        <div id = 'winorlose'></div>
+        <div id = 'winnings'></div>
+        <button class = 'mybut' id="bet1">$1</button>
+        <button class = 'mybut' id="bet5">$5</button>
+        <button class = 'mybut' id="bet10">$10</button>
+        <button class = 'mybut' id="bet25">$25</button>
+        <button class = 'mybut' id="bet100">$100</button>
+        <button class = 'mybut' id="clear">Clear Bet</button>
+    </div>
+<h1>Dealer's Hand</h1>
+<div id = 'dealerscore'></div>
+<div id = 'sec'></div>
+
+
+
+<h2>Your Hand</h2>
+<div id = 'yourscore'></div>
+<div id = 'fir'></div>
+
+    <button class = 'mybut' id = 'hitme'>Hit me</button>
+    <button class = 'mybut' id = 'stay'>Stand</button>
+    <button class = 'mybut' id = 'double'>Double</button>
+    <button class = 'mybut' id = 'surrender'>Surrender</button>
+    <button class = 'mybut' id = 'newhand'>New Hand</button>
+    <button class = 'mybut' id = 'insurance'>Take insurance</button>
+    <button class = 'mybut' id = 'noinsurance'>No Insurance</button>
+
+    <div></div>
+
+</div>
+</body>
+</html>
